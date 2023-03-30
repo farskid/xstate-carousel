@@ -1,0 +1,15 @@
+.car-rail {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.car-container {
+  max-width: var(--item-size);
+  overflow: hidden;
+  background-color: #eee;
+  padding-block: 10px;
+  /* scroll-behavior: smooth; */
+}
